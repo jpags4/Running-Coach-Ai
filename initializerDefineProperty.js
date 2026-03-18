@@ -6,4 +6,4 @@ function _initializerDefineProperty(e, i, r, l) {
     value: r.initializer ? r.initializer.call(l) : void 0
   });
 }
-export { _initializerDefineProperty as default };
+module.exports = _initializerDefineProperty, module.exports.__esModule = true, module.exports["default"] = module.exports;

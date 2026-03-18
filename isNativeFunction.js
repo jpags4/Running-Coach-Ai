@@ -5,4 +5,4 @@ function _isNativeFunction(t) {
     return "function" == typeof t;
   }
 }
-export { _isNativeFunction as default };
+module.exports = _isNativeFunction, module.exports.__esModule = true, module.exports["default"] = module.exports;

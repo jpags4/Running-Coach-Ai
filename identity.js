@@ -1,4 +1,4 @@
 function _identity(t) {
   return t;
 }
-export { _identity as default };
+module.exports = _identity, module.exports.__esModule = true, module.exports["default"] = module.exports;

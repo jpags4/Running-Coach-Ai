@@ -1,4 +1,4 @@
-import arrayLikeToArray from "./arrayLikeToArray.js";
+var arrayLikeToArray = require("./arrayLikeToArray.js");
 function _maybeArrayLike(r, a, e) {
   if (a && !Array.isArray(a) && "number" == typeof a.length) {
     var y = a.length;
@@ -6,4 +6,4 @@ function _maybeArrayLike(r, a, e) {
   }
   return r(a, e);
 }
-export { _maybeArrayLike as default };
+module.exports = _maybeArrayLike, module.exports.__esModule = true, module.exports["default"] = module.exports;

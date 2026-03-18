@@ -3,4 +3,4 @@ function _interopRequireDefault(e) {
     "default": e
   };
 }
-export { _interopRequireDefault as default };
+module.exports = _interopRequireDefault, module.exports.__esModule = true, module.exports["default"] = module.exports;

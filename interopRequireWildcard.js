@@ -1,4 +1,4 @@
-import _typeof from "./typeof.js";
+var _typeof = require("./typeof.js")["default"];
 function _getRequireWildcardCache(e) {
   if ("function" != typeof WeakMap) return null;
   var r = new WeakMap(),
@@ -24,4 +24,4 @@ function _interopRequireWildcard(e, r) {
   }
   return n["default"] = e, t && t.set(e, n), n;
 }
-export { _interopRequireWildcard as default };
+module.exports = _interopRequireWildcard, module.exports.__esModule = true, module.exports["default"] = module.exports;
