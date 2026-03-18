@@ -1,6 +1,6 @@
-var _typeof = require("./typeof.js")["default"];
-var setFunctionName = require("./setFunctionName.js");
-var toPropertyKey = require("./toPropertyKey.js");
+import _typeof from "./typeof.js";
+import setFunctionName from "./setFunctionName.js";
+import toPropertyKey from "./toPropertyKey.js";
 function old_createMetadataMethodsForProperty(e, t, a, r) {
   return {
     getMetadata: function getMetadata(o) {
@@ -233,4 +233,4 @@ function applyDecs(e, t, a) {
     i = {};
   return old_applyMemberDecs(r, e, i, o, t), old_convertMetadataMapToFinal(e.prototype, i), old_applyClassDecs(r, e, o, a), old_convertMetadataMapToFinal(e, o), r;
 }
-module.exports = applyDecs, module.exports.__esModule = true, module.exports["default"] = module.exports;
+export { applyDecs as default };
