@@ -6,6 +6,4 @@ function __decorateParam(paramIndex, decorator) {
   };
 }
 
-(module.exports = __decorateParam),
-  (module.exports.__esModule = true),
-  (module.exports["default"] = module.exports);
+export { __decorateParam as default };
